@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    background-image: url("../images/banner.jpg");
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+
+/**only for login page**/
+.form .login-pass{
+    margin-top: 25px;
+}
+
+#login-page .master-area{
+    padding: 151px 0;
+}
+/****/
+
+.row{
+    margin: 0;
+}
+
+.master-area{
+    padding: 121px 0;
+}
+
+/**main-logo start here**/
+.master-area .main-logo{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+/**form-section start here**/
+.master-area .form{
+    text-align: center;
+}
+
+/**form's form start here**/
+.form-section{
+    padding: 0;
+}
+
+.form .title{
+    color: #f1f1f1;
+}
+
+.form .title .heading{
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.form .title .sub-heading{
+    margin: 3px 0 20px;
+    font-size: 18px;
+}
+
+.form .form-inputs{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.form .form-inputs .input-section{
+
+    padding: 4px 0;
+    border: 2px solid lightskyblue;
+    border-radius: 30px;
+    background-color: #fff;
+}
+
+.form .input-section .logo{
+    width: 12%;
+    float: left;
+}
+
+.form .input-section .input{
+    width: 88%;
+    float: right;
+}
+
+.form .email{
+    margin: 20px 0;
+}
+
+.form .form-inputs  i{
+    font-size: 19px;
+    padding: 8px 0;
+    color: #2981b8;
+}
+
+.form .form-inputs .input input{
+    width: 90%;
+    height: 35px;
+    float: left;
+    border: 0;
+    padding: 0;
+    background: none;
+    border: 0;
+}
+
+.form .password span{
+    font-size: 19px;
+    padding: 8px 0;
+}
+
+.form .password a{
+    text-decoration: none;
+    color: #2981b8;
+}
+
+.form .input-section input::placeholder{
+    color: #2981b8;
+    font-weight: bold;
+}
+
+/**signup button start here**/
+.form .btn{
+    width: 130px;
+    height: 35px;
+    border-radius: 25px;
+    border: 1px solid lightskyblue;
+    background-color: dodgerblue;
+    margin: 20px 0;
+}
+
+.form .btn a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.form .for-login{
+    margin: 0;
+    font-size: 16px;
+    color: dodgerblue;
+}
+
+.form .for-login a{
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+/**welcome section start here**/
+.master-area .welcome{
+    padding: 65px 0;
+    color: #fff;
+}
+
+.welcome .big-text h3{
+    text-align: center;
+}
+
+.welcome .big-text p{
+    font-size: 13px;
+    text-align: justify;
+    padding: 0 85px;
+}
+/**css end here**/

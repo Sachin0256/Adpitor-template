@@ -1,0 +1,1747 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+@font-face {
+    font-family: normal-fonts;
+    src: url(../fonts/fontawesome-webfont.woff);
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/**banner start here**/
+.banner{
+    width: 100%;
+    height: 100%;
+    max-height: 800px;
+    color: #fff;
+}
+
+.banner .left-container{
+    width: 8%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    background-color: rgb(68, 68, 202);
+}
+
+.banner .left-container .button{
+    width: 100%;
+    height: 100%;
+}
+
+.banner .left-container img{
+    width: 30%;
+    margin-top: 30px;
+}
+
+.banner .right-container{
+    width: 91.5%;
+    height: 100%;
+    float: right;
+    background-image: url("../images/banner.jpg");
+    background-size: 100% 100%;
+    background-position: center center;
+}
+
+.banner .equal-width{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.banner .right-container .header{
+    padding: 30px 0 0;
+}
+
+.banner .right-container .logo{
+    width: 30%;
+    float: left;
+}
+
+.banner .right-container .login-area{
+    width: 70%;
+    float: right;
+}
+
+.banner .right-container .logo img{
+    width: 50%;
+}
+
+.banner .right-container .login-area .right-buttons{
+    float: right;
+}
+
+.banner .right-container .login-area .right-buttons button{
+    width: 110px;
+    height: 40;
+    border: 0;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.banner .right-container .login-area .right-buttons .signup{
+    background: none;
+    margin: 0 20px;
+}
+
+.banner .right-container .login-area .right-buttons .mobile-md-btn{
+    display: none;
+}
+
+.banner .right-container .login-area .right-buttons a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.banner .right-container .login-area .right-buttons .login a{
+    color: black;
+}
+
+.banner .login:hover{
+    background-color: rgb(68, 68, 202);
+}
+
+.banner .red-hvr:hover{
+    color: rgb(220, 53, 53);
+}
+/**banner's bottom start here**/
+.banner .right-container .bottom-content{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.banner .right-container .bottom-content .heading h1{
+    margin: 0;
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.banner .right-container .bottom-content .para p{
+    margin: 0 0 20px;
+    font-size: 17px;
+    line-height: 28px;
+    padding: 0 14px;
+}
+
+.banner .right-container .bottom-content button{
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    border: 0;
+}
+
+.banner .right-container .bottom-content button a{
+    text-decoration: none;
+    color: #000;
+}
+
+.banner .right-container .bottom-content .bottom-btn:hover{
+    background-color: #292e39;
+}
+
+/**about section start here**/
+.about-master-container{
+    width: 100%;
+    padding: 80px 0;
+    background-color: #dfd9e1;
+}
+
+.about-master-container .left{
+    width: 40%;
+    float: left;
+    margin-left: 8.5%;
+}
+
+.about-master-container .right{
+    width: 40%;
+    float: left;
+    text-align: right;
+    padding-top: 70px;
+}
+
+.about-master-container .left img{
+    width: 100%;
+}
+
+/**about's right container start here**/
+
+.about-master-container .right h1{
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+.about-master-container .right h1 span{
+    color: mediumblue;
+}
+
+.about-master-container .right .discription p{
+    margin-left: 113px;
+    line-height: 30px;
+}
+
+.about-master-container .right button{
+    padding: 0;
+    width: 190px;
+    height: 60px;
+    border: 0;
+    border-radius: 90px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #000;
+}
+
+.about-master-container .right button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.about-master-container .right button:hover{
+    background-color: mediumblue;
+}
+
+/**client-master container start here**/
+.client-master-container{
+    width: 100%;
+    text-align: center;
+    padding: 70px 0;
+}
+
+.client-master-container .fix-width{
+    width: 82.5%;
+    margin: 0 auto;
+    margin-left: 8.5%;
+}
+
+.client-master-container .heading h1{
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.client-master-container .heading h1 span{
+    color: mediumblue;
+}
+
+.client-master-container .discription p{
+    margin: 0;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 11px;
+}
+
+.client-master-container .client-review{
+    margin-top: 60px;
+    padding: 30px 0;
+    background-color:rgb(68, 68, 202);
+    color: #fff;
+}
+
+.client-master-container .client-review img{
+    width: 16%;
+    max-width: 350px;
+    min-width: 120px;
+}
+
+.client-review .name{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.client-review .title{
+    font-size: 19px;
+    margin: 0;
+}
+
+.client-review .more-info{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+/**cursor section start here**/
+.client-master-container .cursor-buttons{
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px 0 0;
+    text-align: center;
+}
+
+.cursor-buttons ol{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.cursor-buttons ol li{
+    width: 60px;
+    height: 11px;
+    max-width: 90px;
+    background-color: black;
+    display: inline-block;
+}
+
+.cursor-buttons ol li:hover{
+    background-color: mediumblue;
+}
+
+/**contect-us start here**/
+.contect-master-cont{
+    width: 100%;
+    background-color: #212120;
+    color: #fff;
+    padding-top: 70px;
+}
+
+.contect-master-cont .contect-container{
+    width: 82.5%;
+    margin: 0 auto;
+}
+/**header**/
+.contect-container .header{
+    width: 100%;
+}
+
+.contect-container .header .title{
+    width: 30%;
+    float: left;
+}
+
+.contect-container .header .contect{
+    width: 70%;
+    float: left;
+}
+
+.contect-container .header .title h1{
+    margin: 0;
+    font-size: 50px;
+}
+
+.contect-container .header .contect ul{
+    margin: 0;
+    font-size: 24px;
+    padding: 15px 0;
+    float: right;
+    list-style: none;
+}
+
+.contect-container .header .contect ul li{
+    float: left;
+}
+
+.contect-container .header .contect ul .phone{
+    margin: 0 60px;
+}
+
+.contect-container .header .contect ul li .logo{
+    margin-right: 9px;
+}
+
+/**form-map**/
+.contect-master-cont .form-map{
+    width: 100%;
+    padding: 50px 0;
+}
+
+.contect-master-cont .form{
+    width: 44%;
+    float: left;
+}
+
+.contect-master-cont .map-section{
+    width: 56%;
+    float: right;
+}
+
+.form-map .form form .input-box{
+    width: 100%;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+}
+
+.form-map .form form .input-box input,textarea{
+    margin: 0;
+    width: 100%;
+    border: 0;
+    background: none;
+    padding: 23px 16px;
+    color: #fff;
+}
+
+.form-map .form form .input-box input::placeholder{
+    font-size: 16px;
+}
+
+.input-box textarea::placeholder{
+    font-size: 16px;
+}
+
+.contect-container .form-map form{
+    margin: 0;
+}
+
+.form-map .form .btn-social{
+    width: 100%;
+    padding-top: 25px;
+}
+
+.form-map .form .btn-social .send-btn{
+    width: 40%;
+    float: left;
+}
+
+.form-map .form .btn-social .social{
+    width: 60%;
+    float: right;
+}
+
+.form-map .form .btn-social .send-btn button{
+    width: 180px;
+    height: 60px;
+    padding: 0;
+    border: 0;
+    border-radius: 90px;
+    font-size: 17px;
+}
+
+.form-map .form .btn-social a{
+    text-decoration: none;
+    color: #000;
+}
+
+.form-map .form .btn-social button:hover{
+    background-color: mediumblue;
+}
+
+.form-map .form .btn-social a:hover{
+    color: #fff;
+}
+
+.form-map .form .btn-social .social ul{
+    float: right;
+    padding: 7px 0;
+    margin: 0 10px 0 0;
+    list-style: none;
+    color: #000;
+}
+
+.form-map .form .btn-social .social ul li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 13px;
+    border: 0;
+    border-radius: 100%;
+    margin-right: 1px;
+    background-color: #fff;
+}
+
+.form-map .form .btn-social .social ul li:hover{
+    background-color: mediumblue;
+}
+
+.form-map .map-section .bottom-form{
+    width: 100%;
+    clear: both;
+    float: left;
+}
+
+.form-map .map-section .map img{
+    float: right;
+    width: 89%;
+    height: 350px;
+}
+
+.form-map .map-section .bottom-form h3{
+    margin: 0 0 15px 25px;
+    font-size: 23px;
+}
+
+.form-map .map-section .bottom-form .subscribe{
+    margin-left: 25px;
+    width: 96.5%;
+}
+
+.form-map .map-section .bottom-form .subscribe input{
+    float: left;
+    width: 70%;
+    height: 50px;
+    margin: 0;
+    border: 0;
+    padding: 0 16px;
+}
+
+.form-map .map-section .bottom-form .subscribe input::placeholder{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.form-map .map-section .bottom-form .subscribe button{
+    float: left;
+    width: 30%;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: mediumblue;
+    font-size: 16px;
+}
+
+.form-map .map-section .bottom-form .subscribe button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.form-map .map-section .bottom-form .subscribe button:hover{
+    background-color: #292e39;
+}
+
+/**copyright start here**/
+.contect-container .copyright p{
+    margin: 0;
+    text-align: center;
+    padding: 30px 0;
+}
+/**css end here**/
+
+/**media querie start here**/
+/**for extra large desktop**/
+@media only screen and (min-width:2370px){
+    .banner .right-container .bottom-content .heading h1{
+        font-size: 100px;
+    }
+
+    .banner .right-container .bottom-content .para{
+        padding: 0 50px;
+    }
+
+    .banner .right-container .bottom-content .para p{
+        line-height: 33px;
+    }
+
+    .about-master-container .right{
+        padding-top: 90px;
+    }
+
+    .about-master-container .right .heading h1{
+        font-size: 83px;
+    }
+}
+
+/**for large desktop view**/
+@media only screen and (min-width:2100px){
+    /**banner start here**/
+
+    .banner .left-container{
+        width: 10%;
+    }
+
+    .banner .left-container .button img{
+        margin-top: 60px;
+    }
+
+    .banner .right-container{
+        width: 89.5%;
+    }
+
+    .banner .equal-width{
+        width: 78%;
+    }
+
+    .banner .right-container .header{
+        padding: 50px 0 0;
+    }
+
+    .banner .right-container .login-area .right-buttons button{
+        width: 143px;
+        height: 50px;
+        font-size: 24px;
+    }
+
+    .banner .right-container .login-area .right-buttons .signup{
+        margin: 0 35px;
+    }
+
+    .banner .right-container .login-area .right-buttons a{
+        font-size: 25px;
+    }
+
+    .banner .right-container .bottom-content .para p{
+        font-size: 23px;
+        margin: 10px 0 30px;
+    }
+
+    .banner .right-container .bottom-content button{
+        width: 250px;
+        height: 75px;
+        font-size: 25px;
+    }
+
+    /**about us section start here**/
+    .about-master-container{
+        padding: 100px 0;
+    }
+
+    .about-master-container .left{
+        margin-left: 10.5%;
+    }
+
+    .about-master-container .right h1{
+        font-size: 65px;
+    }
+
+    .about-master-container .right .discription p{
+        font-size: 24px;
+        line-height: 45px;
+    }
+
+    .about-master-container .right button{
+        width: 240px;
+        height: 80px;
+        font-size: 20px;
+    }
+
+    /**client-review section start here**/
+    .client-master-container{
+        padding: 100px 0;
+    }
+
+    .client-master-container .fix-width{
+        width: 79%;
+        margin: 0 auto;
+    }
+
+    .client-master-container .header h1{
+        font-size: 60px;
+    }
+
+    .client-master-container .header .discription p{
+        font-size: 25px;
+        line-height: 33px;
+    }
+
+    .client-master-container .client-review{
+        margin-top: 80px;
+        padding: 50px 0;
+    }
+
+    .client-master-container .client-review img{
+        width: 22%;
+    }
+
+    .client-master-container .name{
+        font-size: 33px;
+        margin: 20px 0;
+        font-weight: lighter;
+    }
+
+    .client-master-container .client-review .more-info{
+        font-size: 23px;
+        line-height: 33px;
+    }
+
+    .client-master-container .cursor-buttons{
+        padding: 35px 0;
+    }
+
+    .cursor-buttons ol li{
+        min-width: 120px;
+        height: 25px;
+    }
+
+    /**contect-us start here**/
+    .contect-master-cont{
+        padding: 100px 0;
+    }
+
+    .contect-master-cont .contect-container{
+        width: 79%;
+    }
+
+    .contect-container .header .title h1{
+        font-size: 65px;
+    }
+
+    .contect-container .header .contect ul{
+        font-size: 30px;
+    }
+
+    .contect-master-cont .form-map{
+        padding: 65px 0;
+    }
+
+    .contect-master-cont .form{
+        width: 46%;
+    }
+
+    .contect-master-cont .map-section{
+        width: 54%;
+    }
+
+    .form-map .form .btn-social .send-btn button{
+        width: 240px;
+        height: 78px;
+    }
+
+    .form-map .form .btn-social .social{
+        padding-top: 5px;
+    }
+
+    .form-map .form .btn-social .social ul li{
+        font-size: 35px;
+        margin-left: 5px;
+    }
+
+    .form-map .map-section .map img{
+        width: 93%;
+    }
+
+    .form-map .map-section .bottom-form h3{
+        margin: 0 0 10px 30px;
+        font-size: 35px;
+    }
+
+    .form-map .map-section .bottom-form .subscribe{
+        margin-left: 35px;
+    }
+
+    .form-map .map-section .bottom-form .subscribe input{
+        height: 75px;
+    }
+
+    .form-map .map-section .bottom-form .subscribe button{
+        height: 75px;
+        font-size: 25px;
+    }
+
+    .contect-container .copyright p{
+        padding: 45px 0 0;
+        font-size: 24px;
+    }
+}
+
+/**for desktop view**/
+@media only screen and (min-width:1570px) and (max-width:2099px){
+    /**banner start here**/
+    .banner .left-container{
+        width: 7.65%;
+    }
+
+    .banner .left-container img{
+        margin-top: 55px;
+        width: 35%;
+    }
+
+    .banner .equal-width{
+        width: 82%;
+    }
+
+    .banner .right-container .header{
+        padding: 40px 0 0;
+    }
+
+    .banner .right-container .logo img{
+        width: 60%;
+    }
+
+    .banner .right-container .login-area .right-buttons{
+        padding-top: 10px;
+    }
+
+    .banner .right-container .login-area .right-buttons button{
+        width: 150px;
+        height: 60px;
+        font-size: 25px;
+    }
+
+    .banner .right-container .login-area .right-buttons .signup{
+        margin: 0 35px;
+    }
+
+    .banner .right-container .login-area .right-buttons a i{
+        font-size: 30px;
+    }
+
+    /**bottom**/
+    .banner .right-container .bottom-content .para p{
+        font-size: 25px;
+        line-height: 32px;
+        margin: 5px 0 35px;
+    }
+
+    .banner .right-container .bottom-content button{
+        width: 230px;
+        height: 70px;
+        font-size: 25px;
+    }
+
+    /**about-us start here**/
+    .about-master-container .right{
+        width: 44%;
+    }
+
+    .about-master-container .right h1{
+        font-size: 60px;
+        margin: 0;
+    }
+
+    .about-master-container .right .discription p{
+        font-size: 26px;
+        line-height: 35px;
+    }
+
+    .about-master-container .right button{
+        width: 230px;
+        height: 82px;
+        font-size: 22px;
+    }
+
+    /**client section start here**/
+    .client-master-container .heading h1{
+        font-size: 50px;
+    }
+
+    .client-master-container .discription p{
+        font-size: 23px;
+        line-height: 30px;
+    }
+
+    .client-master-container .client-review img{
+        width: 18%;
+    }
+
+    .client-review .name{
+        font-weight: 27px;
+        font-weight: lighter;
+        margin: 15px 0;
+    }
+
+    .client-review .title{
+        font-size: 24px;
+    }
+
+    .client-review .more-info{
+        width: 70%;
+        font-size: 23px;
+        line-height: 33px;
+    }
+}
+
+/**for laptop view**/
+@media only screen and (min-width:801px) and (max-width:1100px){
+    /**banner start here**/
+    .banner .left-container{
+        width: 7.5%;
+    }
+
+    .banner .left-container img{
+        width: 40%;
+        margin-top: 40px;
+    }
+
+    .banner .right-container .header .logo img{
+        width: 60%;
+    }
+
+    .banner .equal-width{
+        width: 85%;
+    }
+
+    .banner .right-container .bottom-content{
+        margin-top: 115px;
+    }
+
+    .banner .right-container .bottom-content .heading h1{
+        font-size: 75px;
+    }
+
+    .banner .right-container .bottom-content .para p{
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .banner .right-container .bottom-content button{
+        width: 170px;
+        height: 55px;
+        font-size: 18px;
+    }
+
+    /**about-us start here**/
+    .about-master-container .about-main{
+        width: 91.5%;
+        float: right;
+    }
+
+    .about-master-container .left{
+        margin: 0;
+        width: 43%;
+    }
+
+    .about-master-container .right{
+        width: 50%;
+        padding-top: 15px;
+    }
+
+    .about-master-container .right h1{
+        font-size: 40px;
+        margin: 0;
+    }
+
+    .about-master-container .right .discription p{
+        font-size: 16px;
+        line-height: 24px;
+        margin-left: 30px;
+    }
+
+    .about-master-container .right button{
+        width: 150px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    /**client-review start here**/
+    .client-master-container .fix-width{
+        width: 83%;
+        margin: 0 auto;
+    }
+
+    .client-master-container .client-review{
+        margin-top: 35px;
+    }
+
+    .client-master-container .discription p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .client-master-container .client-review img{
+        width: 18%;
+    }
+
+    .client-review .name{
+        font-size: 20px;
+        font-weight: lighter;
+        margin: 10px 0 5px;
+    }
+
+    .client-review .more-info{
+        width: 85%;
+        margin-top: 15px;
+        line-height: 20px;
+    }
+
+    /**contect-us section start here**/
+    .contect-master-cont .contect-container{
+        width: 83%;
+    }
+
+    .contect-container .header .title h1{
+        font-size: 36px;
+    }
+
+    .form-map .form .btn-social{
+        padding-top: 0;
+    }
+
+    .form-map .form .btn-social .send-btn{
+        width: 100%;
+    }
+
+    .form-map .form .btn-social .social{
+        width: 100%;
+    }
+
+    .form-map .form .btn-social .send-btn button{
+        width: 150px;
+        height: 50px;
+    }
+
+    .form-map .form .btn-social .social ul{
+        float: left;
+        margin: 0;
+        padding: 10px 0 0;
+    }
+
+    .form-map .form .btn-social .social ul li{
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .form-map .map-section .bottom-form h3{
+        margin-left: 0;
+    }
+
+    .form-map .map-section .bottom-form .subscribe{
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+/**for L-size laptop**/
+@media only screen and (min-width:1101px) and (max-width:1300px){
+    /**banner start here**/
+    .banner .left-container{
+        width: 7.7%;
+    }
+
+    /**about-us start here**/
+    .about-master-container .right{
+        width: 43%;
+    }
+
+    .about-master-container .right h1{
+        margin: 0 0 25px;
+    }
+
+    .about-master-container .right .discription p{
+        margin-left: 70px;
+        line-height: 27px;
+    }
+}
+
+/**if max-width 1200px then**/
+@media only screen and (min-width:1101px) and (max-width:1200px){
+    .contect-container .header .title h1{
+        font-size: 45px;
+    }
+
+    .form-map .form .btn-social .send-btn button{
+        width: 155px;
+    }
+
+    .form-map .form .btn-social .social ul{
+        margin-right: 0;
+    }
+
+    .form-map .form .btn-social .social ul li{
+        font-size: 19px;
+    }
+}
+
+/**tablet view start here**/
+@media only screen and (max-width:800px){
+    /**banner start here**/
+    .banner .left-container .button a img{
+        width: 40%;
+    }
+
+    .banner .equal-width{
+        width: 95%;
+    }
+
+    .banner .right-container .header{
+        padding: 20px 0 0;
+    }
+
+    .banner .right-container .logo img{
+        width: 75%;
+    }
+
+    .banner .right-container .login-area .right-buttons button{
+        width: 100px;
+        height: 35px;
+    }
+
+    .banner .right-container .login-area .right-buttons .signup{
+        margin: 0 15px;
+    }
+    /**bottom-content**/
+    .banner .right-container .bottom-content{
+        margin-top: 100px;
+    }
+
+    .banner .right-container .bottom-content .heading h1{
+        font-size: 55px;
+    }
+
+    .banner .right-container .bottom-content .para p{
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0 22px;
+    }
+
+    .banner .right-container .bottom-content button{
+        width: 155px;
+        height: 51px;
+        font-size: 18px;
+        padding: 0;
+    }
+
+    /**about section start here**/
+    .about-master-container{
+        padding: 50px 0;
+    }
+
+    .about-master-container .about-main{
+        width: 91%;
+        float: right;
+    }
+
+    .about-master-container .left{
+        width: 49%;
+        margin: 0;
+    }
+
+    .about-master-container .right{
+        width: 49%;
+        padding: 0;
+    }
+
+    .about-master-container .right h1{
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .about-master-container .about-main .right .discription p{
+        font-size: 14px;
+        margin-left: 30px;
+        line-height: 21px;
+    }
+
+    .about-master-container .right button{
+        width: 130px;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    /**client review section start here**/
+    .client-master-container{
+        padding: 50px 0;
+    }
+
+    .client-master-container .fix-width{
+        width: 90%;
+        float: right;
+        margin: 0;
+        margin-right: 1%;
+    }
+
+    .client-master-container .client-review{
+        clear: both;
+        margin-top: 35px;
+    }
+
+    .client-master-container .heading h1{
+        font-size: 30px;
+    }
+
+    .client-master-container .discription p{
+        font-size: 13px;
+        line-height: 16px;
+        text-align: justify;
+    }
+
+    /**review**/
+    .client-master-container .client-review img{
+        width: 20%;
+    }
+
+    .client-review .name{
+        font-size: 18px;
+        font-weight: lighter;
+    }
+
+    .client-review .more-info{
+        width: 85%;
+        margin-top: 15px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .client-master-container .cursor-buttons{
+        padding: 20px 0 0;
+    }
+
+    .client-master-container .cursor-buttons ol{
+        padding: 0;
+    }
+
+    /**contect-us section start here**/
+    .contect-master-cont{
+        padding-top: 50px;
+    }
+
+    .contect-master-cont .contect-container{
+        width: 90%;
+        margin: 0 1% 0 9%;
+    }
+
+    /**header**/
+    .contect-container .header .title h1{
+        font-size: 30px;
+    }
+
+    .contect-container .header .contect ul{
+        font-size: 18px;
+        padding: 5px 0;
+    }
+
+    .contect-container .header .contect ul .phone{
+        margin: 0 10px;
+    }/**not set good**/
+
+    /**form start here**/
+    .contect-master-cont .form-map{
+        padding: 36px 0;
+    }
+
+    .contect-master-cont .form{
+        width: 43%;
+    }
+
+    .contect-master-cont .map-section{
+        width: 57%;
+    }
+
+    .form-map .form form .input-box{
+        margin-bottom: 15px;
+    }
+
+    .form-map .form form .input-box input, textarea{
+        padding: 18px 10px;
+    }
+
+    /**btn-and-social**/
+    .form-map .form .btn-social .send-btn{
+        width: 100%;
+    }
+
+    .form-map .form .btn-social .send-btn button{
+        width: 200px;
+    }
+
+    .form-map .form .btn-social .social{
+        width: 100%;
+        float: left;
+    }
+
+    .form-map .form .btn-social .social ul{
+        float: left;
+        margin: 0;
+        padding: 20px 0 0;
+    }
+
+    /**map-section start here**/
+    .form-map .map-section .map img{
+        width: 95%;
+    }
+
+    .form-map .map-section .bottom-form h3{
+        margin-left: 0;
+    }
+
+    .form-map .map-section .bottom-form .subscribe{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .form-map .map-section .bottom-form .subscribe input{
+        width: 71%;
+    }
+
+    .form-map .map-section .bottom-form .subscribe button{
+        width: 29%;
+        font-size: 14px;
+    }
+}
+/**tablet view end here**/
+
+/**tablet and mobiles mid start here**/
+@media only screen and (max-width:648px){
+    /**banner start here**/
+    .banner .right-container .logo img{
+        width: 80%;
+    }
+
+    .banner .right-container .login-area .right-buttons button{
+        width: 85px;
+        height: 32px;
+        font-size: 16px;
+    }
+
+    /**bottom-content**/
+    .banner .right-container .bottom-content .heading h1{
+        font-size: 48px;
+    }
+
+    .banner .right-container .bottom-content .para p{
+        font-size: 13px;
+        line-height: 18px;
+        padding: 0 10px;
+    }
+
+    /**about-section start here**/
+    .about-master-container .right h1{
+        font-size: 27px;
+    }
+
+    .about-master-container .right .discription p{
+        font-size: 13px;
+        margin-left: 20px;
+        line-height: 18px;
+    }
+
+    .about-master-container .right button{
+        width: 120px;
+        height: 38px;
+        font-size: 12px;
+    }
+
+    /**client-review section start here**/
+    .client-master-container .discription p{
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .client-review .title{
+        font-size: 16px;
+    }
+
+    .client-review .more-info{
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .cursor-buttons ol li{
+        width: 55px;
+    }
+
+    /**contect-us section start here**/
+    /**header**/
+    .contect-container .header .title{
+        width: 35%;
+    }
+
+    .contect-container .header .contect{
+        width: 65%;
+    }
+
+    .contect-container .header .title h1{
+        font-size: 25px;
+    }
+
+    /**form section**/
+    .form-map .form .btn-social .send-btn button{
+        width: 160px;
+        height: 50px;
+    }
+
+    .form-map .form .btn-social .social ul li{
+        font-size: 17px;
+    }
+
+    /**map-section**/
+    .form-map .map-section .map img{
+        width: 100%;
+    }
+
+    .form-map .map-section .bottom-form h3{
+        font-size: 20px;
+    }
+
+    .form-map .map-section .bottom-form .subscribe input{
+        height: 45px;
+    }
+
+    .form-map .map-section .bottom-form .subscribe button{
+        height: 45px;
+        font-size: 13px;
+    }
+
+    /**copyright**/
+    .contect-container .copyright p{
+        font-size: 15px;
+        padding: 20px 0 30px;
+    }
+}
+
+/**tablet and mobiles mid end here**/
+
+/**for-tablet min width**/
+@media only screen and (min-width:450px) and (max-width:550px){
+
+    .about-master-container .left{
+        width: 100%;
+    }
+
+    .about-master-container .right{
+        width: 100%;
+    }
+
+    .about-master-container .right h1{
+        margin-top: 20px;
+    }
+
+    /**form-section**/
+    .contect-master-cont .form{
+        width: 100%;
+    }
+
+    .contect-master-cont .form form{
+        width: 90%;
+    }
+
+    .form-map .form .btn-social .send-btn{
+        width: 35%;
+        float: left;
+    }
+
+    .form-map .form .btn-social .social{
+        width: 65%;
+        float: right;
+    }
+
+    .form-map .form .btn-social .social ul{
+        float: right;
+        padding: 5px 40px 0 0;
+    }
+
+    /**map-section**/
+    .contect-master-cont .map-section{
+        width: 100%;
+    }
+}
+
+/**for-mobile view start here**/
+@media only screen and (min-width:300px) and (max-width:450px){
+    /**banner start here**/
+    .banner{
+        height:500px;
+    }
+
+    .banner .left-container{
+        width: 14%;
+    }
+
+    .banner .right-container{
+        width: 84%;
+    }
+
+    .banner .equal-width{
+        width: 95%;
+    }
+
+    .banner .left-container .button a img{
+        width: 45%;
+    }
+
+    /**right-container's top**/
+    .banner .right-container .header{
+        padding: 15px 0 0;
+    }
+
+    .banner .right-container .header .logo{
+        width: 100%;
+        clear: both;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .banner .right-container .header .logo a img{
+        width: 50%;
+    }
+
+    .banner .right-container .header .login-area{
+        width: 100%;
+        clear: both;
+    }
+
+    .banner .right-container .login-area .right-buttons{
+        width: 100%;;
+    }
+
+    .banner .right-container .login-area .right-buttons button{
+        display: none;
+    }
+
+    .banner .right-container .login-area .right-buttons .search-logo{
+        display: none;
+    }
+
+    .banner .right-container .login-area .right-buttons .mobile-md-btn{
+        display: block;
+    }
+
+    .banner .right-container .login-area .right-buttons .search-box{
+        width: 78%;
+        height: 30px;
+        float: left;
+        border: 1px solid slategray;
+    }
+
+    .banner .right-container .login-area .right-buttons .search-box input{
+        width: 90%;
+        height: 100%;
+        background: none;
+        border: 0;
+        padding: 0;
+        padding-left: 5px;
+        color: slategray;
+    }
+
+    .banner .right-container .login-area .right-buttons .search-box span{
+        color: slategray;
+    }
+
+
+    .banner .right-container .login-area .right-buttons .mobile-md-btn i{
+        float: right;
+        font-size: 23px;
+        padding: 4px 0 0;
+        color: slategray;
+    }
+
+    .banner .right-container .login-area .right-buttons .mobile-md-btn i:hover{
+        color: red;
+    }
+
+    /**right-container's bottom**/
+    .banner .right-container .bottom-content{
+        margin-top: 80;
+    }
+
+    .banner .right-container .bottom-content .heading h1{
+        margin: 24px;
+        font-size: 24px;
+    }
+
+    .banner .right-container .bottom-content .para p{
+        width: 100%;
+        height: 130px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: justify;
+        color: slategray;
+        word-spacing: -1.5px;
+        overflow: auto;
+        padding: 0;
+    }
+
+    .banner .right-container .bottom-content button{
+        width: 105px;
+        font-size: 14px;
+        height: 32px;
+        background: none;
+        border: 1px solid slategray;
+    }
+
+    .banner .right-container .bottom-content button a{
+        color: slategray;
+    }
+
+    /**about us start here**/
+    .about-master-container{
+        padding: 35px 0;
+    }
+
+    .about-master-container .about-main{
+        width: 84%;
+        float: right;
+    }
+
+    .about-master-container .about-main .left{
+        width: 100%;
+        float: right;
+        clear: both;
+        margin: 0;
+    }
+
+    .about-master-container .about-main .right{
+        width: 100%;
+        clear: both;
+        padding: 0;
+        float: right;
+    }
+
+    .about-master-container .right h1{
+        margin: 15px 0;
+        font-size: 30px;
+        padding-right: 5px;
+    }
+
+    .about-master-container .right .discription p{
+        font-size: 12px;
+        line-height: 18px;
+        margin-left: 0;
+        padding-right: 5px;
+    }
+
+    .about-master-container .right button{
+        width: 124px;
+        height: 40px;
+        border-radius: 30px;
+        font-size: 13px;
+        margin-right: 5px;
+    }
+
+    /**client-review section start here**/
+    .client-master-container{
+        padding: 35px 0;
+        text-align: justify;
+    }
+
+    .client-master-container .fix-width{
+        margin: 0;
+        margin-left: 16%;
+        width: 84%;
+    }
+
+    .client-master-container .heading h1{
+        font-size: 25px;
+        text-align: center;
+        word-spacing: -1px;
+        letter-spacing: -1px;
+    }
+
+    .client-master-container .header .discription{
+        display: none;
+    }
+
+    .client-master-container .client-review{
+        margin-top: 25px;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    .client-review .name{
+        font-size: 15px;
+        font-weight: lighter;
+    }
+
+    .client-review .title{
+        font-size: 15px;
+    }
+
+    .client-review .more-info{
+        width: 90%;
+        text-align: justify;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .cursor-buttons ol{
+        padding: 0;
+    }
+
+    .cursor-buttons ol li{
+        width: 50px;
+    }
+    /**contect master container start here**/
+    .contect-master-cont{
+        padding: 35px 0;
+    }
+
+    .contect-master-cont .contect-container{
+        width: 84%;
+        margin: 0;
+        margin-left: 16%;
+    }
+
+    .contect-container .header .title{
+        width: 100%;
+        float: right;
+    }
+
+    .contect-container .header .title h1{
+        font-size: 27px;
+    }
+
+    .contect-container .header .contect{
+        width: 100%;
+        float: right;
+        display: none;/**for temp. elemetns hide**/
+    }
+
+    /**form-start here**/
+    .contect-master-cont .form-map{
+        padding: 30px 0 20px;
+    }
+
+    .contect-master-cont .form-map .form{
+        width: 100%;
+        float: right;
+    }
+
+    .form-map .form form .input-box input, textarea{
+        padding: 15px 10px;
+    }
+
+
+    .form-map .form .btn-social{
+        padding: 0;
+    }
+
+    .form-map .form .btn-social .send-btn{
+        width: 100%;
+        text-align: center;
+    }
+
+    .form-map .form .btn-social .send-btn button{
+        width: 160px;
+        height: 50px;
+    }
+
+    .form-map .form .btn-social .social{
+        width: 100%;
+        float: left;
+    }
+
+    .form-map .form .btn-social .social ul{
+        margin: 0;
+    }
+
+    .form-map .form .btn-social .social ul li{
+        padding: 10px;
+    }/**not set good**/
+
+    /**map start here**/
+    .contect-master-cont .map-section{
+        width: 100%;
+    }
+
+    .contect-master-cont .map-section .map{
+        margin-top: 30px;
+    }
+
+    .contect-master-cont .map-section .map img{
+        width: 100%;
+        height: auto;
+    }
+
+    .form-map .map-section .bottom-form h3{
+        margin: 0 0 20px;
+    }
+
+    .form-map .map-section .bottom-form .subscribe{
+        width: 100%;
+        height: 37px;
+        margin: 0;
+    }
+
+    .form-map .map-section .bottom-form .subscribe input{
+        width: 65%;
+        padding: 5px;
+        height: 100%;
+    }
+
+    .form-map .map-section .bottom-form .subscribe button{
+        width: 35%;
+        height: 100%;
+        font-size: 14px;
+    }
+
+    .contect-container .copyright p{
+        font-size: 11px;
+        padding: 0;
+    }
+    /**mobile view end here**/
+} 
